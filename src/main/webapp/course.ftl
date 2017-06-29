@@ -3,23 +3,23 @@
 <head>
     <link rel="shortcut icon" type="image/x-icon" href="/resources/images/faculty-ico.jpg">
     <link rel="stylesheet" href="/resources/css/main.css"/>
-    <title>Main Page</title>
+    <title>Course Page</title>
 </head>
 <body>
 
-<a href="/goUser">user page</a>
+<a href="/addCourse">add course</a>
 <br/><br/>
 
-<a href="/goAddress">address page</a>
+<a href="/getCourse">get course</a>
 <br/><br/>
 
-<a href="/goPerson">person page</a>
+<a href="/deleteCourse">delete course</a>
 <br/><br/>
 
-<a href="/goStudent">student page</a>
+<a href="/deleteCourseById">delete course by id</a>
 <br/><br/>
 
-<a href="/goCourse">course page</a>
+<a href="/deleteCourseByIdCustom">delete course by id custom</a>
 <br/><br/>
 
 </body>

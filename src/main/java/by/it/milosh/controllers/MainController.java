@@ -18,13 +18,23 @@ public class MainController {
     }
 
     @RequestMapping(value = {"/goAddress"}, method = RequestMethod.GET)
-    public String goAdress() {
+    public String goAddress() {
         return "address";
     }
 
     @RequestMapping(value = {"/goPerson"}, method = RequestMethod.GET)
     public String goPerson() {
         return "person";
+    }
+
+    @RequestMapping(value = {"/goStudent"}, method = RequestMethod.GET)
+    public String goStudent() {
+        return "student";
+    }
+
+    @RequestMapping(value = {"/goCourse"}, method = RequestMethod.GET)
+    public String goCourse() {
+        return "course";
     }
 
 }
